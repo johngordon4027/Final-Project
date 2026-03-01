@@ -1,1 +1,1 @@
-This project is a two-page informational website designed to explain the process and outcome of opening a store.
+This project is a two-page informational website designed to explain the process and outcome of opening a store. Chapter 7 highlighted the need to define success before starting my project. Instead of jumping straight into completing tasks, I learned that strong projects begin with clarity, clear objectives, defined outcomes, and shared expectations. My goal was to practice identifying what the finished result should accomplish and how it would be measured.
