@@ -10,7 +10,7 @@
   <header class="site-header">
     <div class="container">
       <h1 class="site-title">About This Project</h1>
-      <p class="site-subtitle">My name is John Gordon and I am choosing to open store because 
+      <p class="site-subtitle">My name is John Gordon and I want to open my own business because I have always had an entrepreneurial attitude. I am motivated by the idea of building something from the ground up and watching it grow over time. For me, entrepreneurship is not just about making money; it is about ownership, responsibility, and leadership.
 
       <nav class="nav">
         <a class="nav-link" href="index.html">Home</a>
@@ -21,4 +21,40 @@
       </nav>
     </div>
   </header>
-  
+  <main class="container">
+    <section class="card">
+      <h2>Why I Chose to Open a Store</h2>
+      <p>I chose to open a store because I want to create something that reflects my values and work ethic rather than simply contributing to someone else’s vision.
+In Project Management for the Unofficial Project Manager, the authors explain that successful projects require clear structure, defined goals, and accountability. One concept that stands out to me is the “cadence of accountability.” This idea emphasizes regular check-ins and measurable progress rather than waiting until the end to evaluate results. If I were to start my own business, I would apply this concept by setting weekly performance goals, reviewing financial metrics, and adjusting strategy as needed. I understand that entrepreneurship requires discipline, not just motivation.
+</p>
+    </section>
+
+    <section class="card">
+      <h2>What this project contains</h2>
+      <ul>
+        <li>A two-page website with consistent styling</li>
+        <li>Project documentation in the <code>docs/</code> folder</li>
+        <li>A scope statement, plan (TAME + WBS), and retrospective</li>
+      </ul>
+    </section>
+    <section class="card">
+      <h2>Documentation links</h2>
+      <p>
+        <a href="docs/scope.md">Scope Statement</a> •
+        <a href="docs/plan.md">Project Plan</a> •
+        <a href="docs/retrospective.md">Retrospective</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> John Gordon</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
